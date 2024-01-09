@@ -3,6 +3,9 @@ import { AppContext } from "../context";
 import { useState } from "react";
 import { Button, Modal } from "react-bootstrap";
 import youtubeIcon from './youtube.png';
+import dessertImage from './dessert.png';
+import chickenImage from './meat.jpg';
+import seafood from './seafood.png';
 
 const Meals = () => {
     const { meals, isLoading } = useContext(AppContext);
@@ -131,6 +134,9 @@ const Meals = () => {
                                                 >
                                                     Like
                                                 </button>
+                                                <span><img src={strCategory === "Chicken" ? chickenImage : strCategory === "Dessert" ? dessertImage : seafood}
+                                                    style={{ width: "20px", height: "20px", objectFit: "cover" }}
+                                                    className="card-img-top" /></span>
                                             </div>
                                         </article>
                                     </div>
