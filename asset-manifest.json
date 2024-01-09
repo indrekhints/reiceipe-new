@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/reiceipe-new/static/css/main.5d8c3224.css",
-    "main.js": "/reiceipe-new/static/js/main.25f10cc8.js",
+    "main.js": "/reiceipe-new/static/js/main.b74a349a.js",
     "static/js/787.8db9a640.chunk.js": "/reiceipe-new/static/js/787.8db9a640.chunk.js",
     "static/media/youtube.png": "/reiceipe-new/static/media/youtube.6f9e32ba8209c71da075.png",
+    "static/media/seafood.png": "/reiceipe-new/static/media/seafood.26a503aea077927c3b43.png",
     "index.html": "/reiceipe-new/index.html",
     "main.5d8c3224.css.map": "/reiceipe-new/static/css/main.5d8c3224.css.map",
-    "main.25f10cc8.js.map": "/reiceipe-new/static/js/main.25f10cc8.js.map",
+    "main.b74a349a.js.map": "/reiceipe-new/static/js/main.b74a349a.js.map",
     "787.8db9a640.chunk.js.map": "/reiceipe-new/static/js/787.8db9a640.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d8c3224.css",
-    "static/js/main.25f10cc8.js"
+    "static/js/main.b74a349a.js"
   ]
 }
