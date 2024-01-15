@@ -68,14 +68,15 @@ const Meals = () => {
                 <div className="row">
                     <div className="col-md-8">
                         {/* --------FAVORITEMEALS------- */}
-                        <div className="col-md-12" style={{ backgroundColor: "black" }}>
+                        <div className="col-md-12" style={{ backgroundColor: "#181c21", borderRadius: "6px" }}>
                             <h5></h5>
                             <ul
                                 className="list-unstyled d-flex flex-wrap position-relative"
                                 style={{
-                                    backgroundColor: "black",
+                                    backgroundColor: "#181c21",
                                     padding: 0,
                                     maxWidth: "720px", // Adjust the width as needed
+                                    borderRadius: "5%"
                                 }}
                             >
                                 {favorites.map((favorite) => (
@@ -92,7 +93,8 @@ const Meals = () => {
                                         <img
                                             src={favorite.strMealThumb}
                                             alt={favorite.idMeal}
-                                            style={{ width: "100%" }}
+                                            style={{ width: "100%", borderRadius: "50%" }}
+
                                         />
                                         <button
                                             className="btn btn-danger btn-sm position-absolute bottom-0 start-50 translate-middle-x"
@@ -130,7 +132,7 @@ const Meals = () => {
                                                 <button
                                                     className="btn btn-primary mt-2"
                                                     style={{ backgroundColor: "#6B83BA", color: "#eee", borderColor: "transparent" }}
-                                                    onClick={() => addFavorite(selectedMeal.idMeal)}
+                                                    onClick={() => addFavorite(idMeal)}
                                                 >
                                                     Like
                                                 </button>
